@@ -1,58 +1,34 @@
 ---
-title: Welcome to The Overview
+title: Mads Medina Hedeby
 ---
-## DENNE SIDE HAR JEG _IKKE_ FORFATTET!
-Den er taget fra en online-skabelon og er udspringet for min analyse af data materialet.
+___
 
-<Details title='How to edit this page'>
+### Welcome to my online resume
 
-  This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
-</Details>
+I've created a little website (mind you, I'm not a web developer, I'm just great at acquiring new tools, so please restrain judgement). You're welcome to browse my [Work experience](/Experience), [Educational background](/Education), [Professional achievements](/Impact) and [Skills and Tools](/Competencies). 
 
-```sql categories
-  select
-      category
-  from needful_things.orders
-  group by category
-```
+Have a look around!
+___
 
-<Dropdown data={categories} name=category value=category>
-    <DropdownOption value="%" valueLabel="All Categories"/>
-</Dropdown>
+## Professional Summary
+I specialize in transforming complex data into clear, actionable insights that drive measurable business value. With passion for BI strategy, analytics, leadership, and stakeholder management, I empower organizations to make faster and smarter decisions. I take ownership, drive impact, and continuously expand my capabilities;
+helping businesses and people around me reach their full potential through data-driven insights and strategic thinking.
+___
 
-<Dropdown name=year>
-    <DropdownOption value=% valueLabel="All Years"/>
-    <DropdownOption value=2019/>
-    <DropdownOption value=2020/>
-    <DropdownOption value=2021/>
-</Dropdown>
+![An image stored in the project's static folder](/sqr.png)
 
-```sql orders_by_category
-  select 
-      date_trunc('month', order_datetime) as month,
-      sum(sales) as sales_usd,
-      category
-  from needful_things.orders
-  where category like '${inputs.category.value}'
-  and date_part('year', order_datetime) like '${inputs.year.value}'
-  group by all
-  order by sales_usd desc
-```
 
-<AreaChart
-    data={orders_by_category}
-    title="Sales by Month, {inputs.category.label}"
-    x=month
-    y=sales_usd
-    series=category
-/>
+## Personal
+I'm a husband, father and a brother. I live by Nørrebroparken in a tiny apartment with my wife and two babies. She and I met in Sydney, Australia back in 2015.
+We have familial ties to Mexico, Denmark and Sweden.
 
-## What's Next?
-- [Connect your data sources](settings)
-- Edit/add markdown files in the `pages` folder
-- Deploy your project with [Evidence Cloud](https://evidence.dev/cloud)
+I have spent years and years playing, coaching and refereeing basketball. I also love playing and watching football, and enjoy golfing while refusing to watch it! You can always initiate conversation with me by asking me about 'the game'.
 
-## Get Support
-- Message us on [Slack](https://slack.evidence.dev/)
-- Read the [Docs](https://docs.evidence.dev/)
-- Open an issue on [Github](https://github.com/evidence-dev/evidence)
+I currently lead and teach a weekly evening class for adults about biblical litteracy and faith in my local church, which is greatly rewarding.
+
+___
+
+## Get in touch
+- (+45) 3142 6240
+- hire.mmh@gmail.com
+- [LinkedIn Profile](https://www.linkedin.com/in/the-talented-mads-medina-hedeby)
