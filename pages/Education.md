@@ -3,6 +3,8 @@ title: Educational Background
 ---
 Chronological breakdown and key takeaways from my two academic and one vocational education.
 
+___
+
 ## Cand.Merc. Business Administration & Leadership
 ### From 2022 to 2024
 - **Topics included:**
@@ -23,6 +25,8 @@ I wrote my thesis on strategies for M&A for coorporative companies using Norlys'
 
  Much about utilizing data to meet commercial needs and to discover new bottlenecks and business opportunities. My thesis taught me much about executive leadership, and equity constraints for financing strategic investments. I also gained extensive project management experience as every semester consisted of new group projects where I gained leadership and communication experience.
 
+___
+
 ## BSc. International Business & Politics
 ### From 2018 to 2021
 - **Topics included:**
@@ -41,7 +45,9 @@ My danish average grade for the degree was 7.6 meaning my GPA was 3.2
 
 - I learned much about Economics, Politics and Markets; and how they interplay within industries and society at large. The interconnectivity of seemingly varied fields I found extremely interesting.
 
-## Adv. Diploma - Leadership & Ministry - Sydney, Australia
+___
+
+## Adv. Diploma - Leadership & Ministry (Sydney, Australia)
 ### From 2015 to 2018
 - **Topics included:**
 
